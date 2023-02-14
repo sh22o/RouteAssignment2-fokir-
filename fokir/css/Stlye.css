@@ -1,0 +1,294 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: 'Source Sans Pro', sans-serif;
+} 
+.Home { 
+    background-image:url(../img//slider/slider-01.jpg);
+    background-position: center center; 
+    background-size: cover; 
+
+}  
+.overlay{
+    background-color: rgb(11, 11, 11,0.6); 
+    width:100%; 
+    height: 100vh;
+}
+.contect{ 
+    margin-top: 9rem;
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+} 
+.text{
+   text-align: center; 
+ 
+   
+}
+ .text h3{
+    color: #fff;
+    font-weight: 600;
+    margin: 0 0 10px;
+} 
+.text .name{
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}  
+.text p{
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #fff;
+}  
+
+.myNav{ 
+    position: fixed;
+    background-color:rgba(0,0,0, 0.3);  
+    top:0; 
+    left:0; 
+    width:100%; 
+    z-index: 7; 
+
+}  
+
+.brand{
+    color: #ff305b;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 20px; 
+    padding: 20px ;
+    
+}  
+.brand:hover{
+    color: #fff;
+}  
+.links a{
+    color: white; 
+
+} 
+.links a:hover{ 
+    color: #ff305b;
+}  
+/*About section */  
+h2 span{
+    color: #ff305b;
+    font-weight: 600;
+    font-size:bold;
+}  
+h2{
+    font-weight: 600;
+} 
+ .AboutText ul  li span{
+    color: #333333;
+    font-weight: 600;
+}
+.AboutText ul li{
+        color: #555555;
+    font-weight: 400;
+    line-height: 1;
+   
+} 
+.btn{
+    padding: 10px 24px;
+    color:white; 
+    background-color: #ff305b; 
+    border-radius: 4px;
+}  
+.btn:hover{
+    background-color: white; 
+    color: #ff305b;
+} 
+
+.AboutImage{ 
+    position: relative; 
+    border: 6px solid #555555; 
+    border-radius: 5px; 
+   
+
+}  
+.box{
+    position: relative; 
+    top:24px; 
+    left:24px;  
+    overflow: hidden; 
+    transition: 0.5s all;
+} 
+.layer{
+    position: absolute; 
+    background-color: rgba(0,0,0, 0.5);
+    left:0%; 
+    right:0%; 
+    height: 100%;
+    width:100%; 
+    
+} 
+.layer i{
+    color:whitesmoke; 
+}
+
+.box:hover .layer{
+    top:0%;   
+}  
+
+.Services{
+       
+    background-color: #f1f1f1;
+} 
+.Services h1{
+    font-weight: 800; 
+    line-height: 30px; 
+    text-transform: capitalize; 
+    color: #333333;
+}
+
+.serves {
+    transition: 0.5s;
+} 
+.serves:hover{
+    background-color: white;
+
+}
+
+
+.serves h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px; 
+    color:#333333; 
+} 
+.serves i{
+    color: #ff305b; 
+    font-size: 2rem;  
+   
+} 
+.portfolio {
+    background-color: #f1f1f1;
+}  
+.portfolio h1{
+    font-weight: 800;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #333333;
+}
+.lik {
+    text-decoration: none; 
+    color: #333333; 
+
+} 
+.lik:hover{
+    color: #ff305b;
+}  
+
+.works{ 
+    background-color: #f1f1f1;
+
+}  
+
+.member h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+} 
+.member h2{
+    font-size: 1rem; 
+    color: #555555;
+} 
+.member i{
+    color: #ff305b; 
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}  
+.Feedback{
+    background-color:#fff; 
+}
+.fedbox{
+    background-color:#f1f1f1; 
+} 
+.Feedback h1{
+    font-weight: 800; 
+    font-size: 2rem; 
+    text-transform: capitalize; 
+    line-height: 30px ; 
+    color: #333333;
+} 
+.Blog{
+    background-color: #f1f1f1;
+}  
+.Blog h1{
+    font-weight: 800; 
+    text-transform: capitalize; 
+    line-height: 30px; 
+    color: #333333;
+}
+.BlogBox h6{ 
+    font-weight: 600;
+
+}  
+.BlogBox h3{
+    font-weight:600;
+} 
+.readM a {
+    text-decoration: none; 
+    color: #333333; 
+
+} 
+.readM i{
+    color: #333333;
+} 
+.readM a:hover{
+    color: #ff305b;
+} 
+.readM i:hover{
+    color: #ff305b;
+}  
+.conttact-US h1{ 
+    font-weight: 800; 
+    text-transform: capitalize; 
+    line-height: 30px; 
+    color: #333333; 
+     
+}  
+.Sec9{
+    background-color:#333333;  
+    color: #fff;
+} 
+.Sec9 p a {
+    color: #ff305b; 
+    text-decoration: none; 
+} 
+.Sec9 ul li i:hover{
+    color: #ff305b;
+}
+.overlaybox{ 
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.5); 
+    display: flex;
+    justify-content:center; 
+    align-items: center;   
+    left:0%; 
+    right:0%; 
+    height: 100%;  
+    
+    
+   
+}
+  
+.item{
+      overflow: hidden; 
+    transition: 0.8s all;
+}
+.item:hover .overlaybox{ 
+    top:0; 
+}  
+
+
+
+    
+
+
+
+
+
